@@ -1,0 +1,11 @@
+package View;
+import controllers.EmpleadoController;
+public class EmpleadoView {
+
+	public static void main(String[] args) {
+		String empleado = new EmpleadoController().createEmpleado("Flores","Maria","26","femenino","2500");
+		
+
+	}
+
+}
